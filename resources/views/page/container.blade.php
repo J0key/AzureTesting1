@@ -23,12 +23,10 @@
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
     <link crossorigin="anonymous" href="styles/main.min.css" media="screen" rel="stylesheet" />
     <title>Portofolio</title>
-    <link rel="stylesheet" href={{asset("public/build/assets/app-4f4a373c.css")}}>
 </head>
 
 <body>
     {{-- yang paling atas ditampilin== yang paling bawah --}}
-
     @extends('page.end')
     @extends('page.work')
     @extends('page.skill')
