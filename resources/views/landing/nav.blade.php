@@ -16,8 +16,8 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
         rel="stylesheet" />
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href={{asset("public/build/assets/app-4f4a373c.css")}}>
-    <title>Portofolio</title>
+    <link rel="stylesheet" href="{{ asset('path/to/tailwind.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/app-4f4a373c.css') }}">    <title>Portofolio</title>
 
 </head>
 
@@ -54,6 +54,6 @@
         </div>
     </div>
 
-    <script src={{ asset("public/build/assets/app-422dbcc3.js") }}></script>
+    <script src="{{ asset('build/assets/app-422dbcc3.js') }}"></script>
 </body>
 </html>
